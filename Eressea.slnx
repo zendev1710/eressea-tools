@@ -2,14 +2,14 @@
   <Configurations>
     <Platform Name="Win32" />
   </Configurations>
-  <Project Path="CheckOrders/CheckOrders.vcxproj" />
-  <Project Path="CRDiff/CRDiff.vcxproj" />
-  <Project Path="CRFaction/CRFaction.vcxproj" />
-  <Project Path="CRFind/CRFind.vcxproj" />
-  <Project Path="CRHelpers/CRHelpers.vcxproj" />
-  <Project Path="CRID/CRID.vcxproj" />
-  <Project Path="CRSaveOrders/CRSaveOrders.vcxproj" />
-  <Project Path="CRSel/CRSel.vcxproj" />
-  <Project Path="CRStats/EresseaStats.vcxproj" />
-  <Project Path="CRTools/CRTools.vcxproj" />
+  <Project Path="CheckOrders/CheckOrders.vcxproj" Id="57ff73c1-71a2-4205-88c0-9088b6cfa6fa" />
+  <Project Path="CRDiff/CRDiff.vcxproj" Id="883469d2-93a3-4fb0-a9c5-82236518aa7f" />
+  <Project Path="CRFaction/CRFaction.vcxproj" Id="3163204d-0508-4a00-9a3b-53932e03c78e" />
+  <Project Path="CRFind/CRFind.vcxproj" Id="dc71a8de-642c-4f95-ad7f-c3aae455d156" />
+  <Project Path="CRHelpers/CRHelpers.vcxproj" Id="59034544-89c4-4729-a3d9-607222d3107d" />
+  <Project Path="CRID/CRID.vcxproj" Id="288dc61f-0f8b-4000-b94c-b7c883210fa1" />
+  <Project Path="CRSaveOrders/CRSaveOrders.vcxproj" Id="1c9bf8d4-bd6d-4505-b13a-7da8c852f006" />
+  <Project Path="CRSel/CRSel.vcxproj" Id="81586b2c-1202-4323-8847-66cafa963d5c" />
+  <Project Path="CRStats/EresseaStats.vcxproj" Id="b04a612d-fd99-4e78-a351-fe2cd6a0190e" />
+  <Project Path="CRTools/CRTools.vcxproj" Id="1dc27cd1-da48-4e4b-bb93-de1fd4d8b185" />
 </Solution>

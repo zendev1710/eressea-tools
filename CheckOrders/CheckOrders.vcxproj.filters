@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3294f2ab-53f1-47e9-84ff-af5da4f5dc43}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Eressea Source Files">
+      <UniqueIdentifier>{18a8f886-9d5b-4f9a-b13d-fde8926852d5}</UniqueIdentifier>
+      <Extensions>*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{60a5636d-4ceb-46bb-b985-3ef28a6826ec}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\CRTools Header Files">
+      <UniqueIdentifier>{6fc96203-0dc6-497a-b41a-601ad165aecb}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{635e5120-7137-4a57-b003-defc53a9e2ca}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CheckOrders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEcheck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Orders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Token.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buildings.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CamouflagedFaction.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRError.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRFileScanOrders.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EchkMgr.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Faction.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Factions.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Messages.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEresseaCR.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OrdersFile.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Race.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Races.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Region.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Regions.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Road.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Roads.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ships.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spells.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Units.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Warning.cpp">
+      <Filter>Source Files\Eressea Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CheckOrders.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CheckOrders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EcheckTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Faction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kToTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Orders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Regions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spells.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Token.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Units.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Buildings.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CamouflagedFaction.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRTools\config.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRTools\crdata.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRError.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRFileScanOrders.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRTools\crparse.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EchkMgr.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRTools\hierarchy.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEresseaCR.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OrdersFile.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Race.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Races.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Road.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Roads.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ships.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Warning.h">
+      <Filter>Header Files\CRTools Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

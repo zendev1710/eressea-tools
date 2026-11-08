@@ -1,0 +1,15 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Win32" />
+  </Configurations>
+  <Project Path="CheckOrders/CheckOrders.vcxproj" />
+  <Project Path="CRDiff/CRDiff.vcxproj" />
+  <Project Path="CRFaction/CRFaction.vcxproj" />
+  <Project Path="CRFind/CRFind.vcxproj" />
+  <Project Path="CRHelpers/CRHelpers.vcxproj" />
+  <Project Path="CRID/CRID.vcxproj" />
+  <Project Path="CRSaveOrders/CRSaveOrders.vcxproj" />
+  <Project Path="CRSel/CRSel.vcxproj" />
+  <Project Path="CRStats/EresseaStats.vcxproj" />
+  <Project Path="CRTools/CRTools.vcxproj" />
+</Solution>

@@ -1,0 +1,37 @@
+# Visual Studio and MSBuild outputs
+.vs/
+**/Debug/
+**/Release/
+**/ipch/
+[Bb]in/
+[Oo]bj/
+*.ncb
+*.opt
+*.suo
+*.user
+*.sdf
+*.VC.db*
+*.VC.VC.opendb
+*.plg
+*.aps
+*.clw
+*.ilk
+*.pdb
+*.obj
+*.pch
+*.idb
+*.tlog/
+*.lastbuildstate
+
+# Local configuration and generated files
+/.localpilot/
+/*.lnk
+/*.reg
+/*_opt.txt
+/global_opt.txt
+/UpgradeLog.htm
+/stma/
+/report/*.jar
+*.zip
+Thumbs.db
+Desktop.ini

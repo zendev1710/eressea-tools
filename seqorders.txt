@@ -1,0 +1,92 @@
+static eKeyword SequenceKeywords[MAXKEYWORDS]={
+	// K_DEFAULT, //new only
+	K_GROUP,
+	// K_MAKE_TEMP,
+	K_NAME,
+	K_DESCRIBE,
+	// K_GUARD_NOT,
+	K_HELP,
+	K_COMBAT,
+	K_COMBATMAGIC,
+	// K_COMBATSPELL,
+	// K_HIDE,
+	K_ORIGIN,
+	K_SHOW,
+	K_BANNER,
+	K_EMAIL,
+	K_SCHOOL,
+	K_OPTION,
+	K_MESSAGE,
+	K_USE,
+	K_ENTER,
+	K_CONTACT,
+	K_LEAVE,
+	K_ATTACK,
+	K_RESERVE,
+	K_SIEGE,
+	// K_ENTER, // 2nd attempt
+	// K_CONTACT, // 2nd attempt
+	K_FOLLOW,
+	K_GIVE,
+	K_FORGET,
+	K_DESTROY,
+	K_RECRUIT,
+	// buildings upkeep,
+	K_RESTART,
+	K_QUIT,
+	K_CAST,
+	K_TEACH,
+	K_STUDY, // learn
+	K_WORK,
+	K_STEAL,
+	K_BUY,
+	K_SELL,
+	K_MAKE,
+	K_SABOTAGE,
+	K_SPY,
+	K_TAX,
+	K_ENTERTAIN,
+	K_GROW,
+	/*
+	1. gathering of resources (piece by piece)
+	2. entertainment (piece by piece)
+	3. work (piece by piece)
+	4. taxation (in portions of 10 pieces of silver)
+	5. buy (piece by piece)
+	6. sell (piece by piece)
+	7. steal (piece by piece)
+	*/
+	// ship damages - too small a crew,
+	K_MOVE,
+	K_ROUTE,
+	K_RIDE,
+	K_CARRY,
+	// K_FOLLOW, //process
+	K_GUARD, //not moving unit
+	// taxes on ocean
+	K_DEFAULT,
+	// remove empty units
+	// peasants/horses/tree grow
+	// upkeep costs for units
+	// buildings maintenance cost
+	K_SORT,
+	K_NUMBER,
+	// K_ENTER, // 3rd attempt
+	// K_CONTACT, // 3rd attempt
+	K_PROMOTION,
+
+	K_END,
+	K_RESEARCH,
+	K_FIGHT,
+	K_DELIVER,
+	K_PASSWORD,
+	K_REPORT,
+	K_SETSTEALTH,
+	K_COMMENT,
+	K_BREED,
+	K_OPINION,
+	K_PIRACY,
+	K_PREFIX,
+	K_CLAIM,
+	K_PLANT,
+};

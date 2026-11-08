@@ -39,4 +39,5 @@ Desktop.ini
 # Game reports and generated order files
 *.cr
 orders*.txt
+*_orders*.txt
 oprders*.txt

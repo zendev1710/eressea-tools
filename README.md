@@ -41,6 +41,18 @@ Les outils qui analysent ou modifient un rapport nécessitent un rapport de tour
 
 Les rapports `.cr`, les fichiers d’ordres générés et les données locales de Visual Studio sont exclus du suivi Git. Ne publiez pas de rapports ou de mots de passe de jeu.
 
+Les scripts par défaut sont maintenant dans `Next/` :
+- Les fichiers locaux privés `ngm.cr`, `eressea.crh`, `world14.sel` et, si nécessaire, `magellan.ini` doivent être fournis localement ; ils ne sont pas inclus dans le dépôt.
+- Les rapports `.cr`, leurs sauvegardes, les fichiers `.crh`, `.sel`, `.ini` et le rapport généré `Next/result.txt` sont ignorés par Git.
+- `ECHECKPATH` doit pointer vers le répertoire externe contenant les données de langue de CheckOrders, avec son sous-répertoire de locale.
+- Compilez la solution en configuration **Release / Win32** avant de lancer les scripts.
+
+Les scripts migrés sont :
+- `Orders_next.bat` et `Orders_next_detailed.bat` : contrôlent les ordres intégrés dans `ngm.cr` avec CheckOrders et enregistrent un CR projeté (numéro de tour incrémenté) dans `Next2/ngm.cr`, ainsi qu’un rapport dans `Next/result.txt`. Les deux scripts partagent ces sorties ; exécutez-les séparément. Il s’agit d’un contrôle avec projection partielle, pas d’une résolution complète et officielle du tour par le moteur Eressea.
+- `sel_world14_on_next.bat` : filtre le `ngm.cr` local selon `world14.sel`, recentre sur `kerubin` et écrit le résultat dans `Next/ngm_world14.cr` sans modifier le fichier d’entrée.
+
+Seuls les scripts batch ont été migrés depuis le dossier de travail d’origine. Aucun rapport, fichier Magellan ni mot de passe n’a été ajouté au dépôt.
+
 ## Licence
 
 Le dépôt ne définit pas de licence globale. Des avis de licence distincts figurent dans certains fichiers ; vérifiez-les avant toute réutilisation ou redistribution.

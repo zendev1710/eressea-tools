@@ -41,3 +41,8 @@ Desktop.ini
 orders*.txt
 *_orders*.txt
 oprders*.txt
+*.cr.*
+*.crh
+*.sel
+*.ini
+/Next/result.txt

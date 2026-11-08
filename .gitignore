@@ -35,3 +35,8 @@
 *.zip
 Thumbs.db
 Desktop.ini
+
+# Game reports and generated order files
+*.cr
+orders*.txt
+oprders*.txt
